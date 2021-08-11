@@ -1,2 +1,12 @@
+All entries follow a similar syntax:
+{"prompt": "title description.\n\n###\n\n", "completion": " General: A blog. Specific: A blog about software for salespeople.\n\n###\n\n"}
+ - The prompts are just the title and meta description, as found in google
+ - The "\n\n###\n\n" is the seperator for GPT to pick up on
+ - Before "General" in the completions, there is 1 space character, which GPT asks for
+
+
+
 {"prompt": "Magic Sales Bot - You send cold email. We make it stand out. Magic Sales Bot gives you intel on your prospects. Then, our AI writes personalized sales emails based on their socials, industry news, and your target ...\n\n###\n\n", "completion": " General: Sales Tool. Specific: Tool for salespeople to send cold email.\n\n###\n\n"}
-{"prompt": "Newsletter Spy. Unlock a database with extensive data on 20,000+ Substack newsletters. Get Access View Features ...\n\n###\n\n", "completion": " General: Sales Tool. Specific: Tool for salespeople to send cold email.\n\n###\n\n"}
+{"prompt": "Newsletter Spy. Unlock a database with extensive data on 20,000+ Substack newsletters. Get Access View Features ...\n\n###\n\n", "completion": " General: A database. Specific: A database for intel on email newsletters.\n\n###\n\n"}
+{"prompt": "Jakob Greenfeld – Experiments in Entrepreneurship and ...Hi, I'm Jakob. I'm passionate about bootstrap entrepreneurship and recently decided to pursue a Bootstrap MBA. My goal is to learn everything I can about ...\n\n###\n\n", "completion": " General: A personal blog. Specific: A personal blog about entrepreneurship and bootstrapping.\n\n###\n\n"}
+{"prompt": "Ryan Doyle SaaS Products for Sales People: Home Wks 21 & 22 - The Mom Test - $1k MRR. Cause for reflection. February 14, 2022. Wk 20 - Number 1 on Product Hunt - $777 MRR. 20 customers and counting..\n\n###\n\n", "completion": " General: A blog. Specific: A blog about software for salespeople.\n\n###\n\n"}
